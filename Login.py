@@ -3,8 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 browser = webdriver.Firefox()
 browser.get('https://i.caisan.net/login')
-username = "18229298314"
-password = "dengziqi520"
+username = "18888888888"
+password = "xxxxxxxxxxx"
 assert "登录 - 彩伞中心" in browser.title
 browser.find_element_by_name("username").send_keys(username)
 browser.find_element_by_name("password").send_keys(password)
